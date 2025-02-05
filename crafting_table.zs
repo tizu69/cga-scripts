@@ -21,7 +21,7 @@ craftingTable.addShaped("belt_connector", <item:create:belt_connector>,
     [[<item:minecraft:sugar_cane>, <item:minecraft:sugar_cane>, <item:minecraft:sugar_cane>],
     [<item:minecraft:sugar_cane>, <item:minecraft:sugar_cane>, <item:minecraft:sugar_cane>]]);
 
-craftingTable.remove(<item:create:belt_connector>);
+craftingTable.remove(<item:create:andesite_funnel>);
 craftingTable.addShaped("andesite_funnel", <item:create:andesite_funnel> * 2,
     [[<item:minecraft:air>, <item:create:andesite_alloy>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:minecraft:sugar_cane>, <item:minecraft:air>],
