@@ -6,7 +6,7 @@ import mods.create.ItemApplicationManager;
     <item:minecraft:soul_sand>, 100);
 
 <recipetype:create:splashing>.remove(<item:minecraft:flint>);
-<recipetype:create:splashing>.addRecipe("gravel_wash_flint_iron_copper", [<item:minecraft:flint> % 10,
+<recipetype:create:splashing>.addRecipe("gravel_wash_flint_iron_copper", [<item:minecraft:flint> % 5,
     <item:minecraft:copper_ingot> % 12, <item:minecraft:iron_ingot> % 6], <item:minecraft:gravel>, 100);
     
 <recipetype:create:splashing>.addRecipe("crushed_iron_wash", [<item:minecraft:iron_ingot>, <item:minecraft:redstone> % 12],
