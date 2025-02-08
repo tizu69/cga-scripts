@@ -89,27 +89,27 @@ craftingTable.addShaped("comparator", <item:minecraft:comparator>,
 
 craftingTable.remove(<item:minecraft:observer>);
 craftingTable.addShaped("observer", <item:minecraft:observer>,
-    [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:minecraft:cobblestone>, 
+    [[<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:minecraft:cobblestone>, 
     <item:minecraft:redstone>, <item:minecraft:redstone>, <item:create:rose_quartz>,
-    <item:minecraft:cobblestone>, <item:minecraft:cobblestone> , <item:minecraft:cobblestone>]);
+    <item:minecraft:cobblestone>, <item:minecraft:cobblestone> , <item:minecraft:cobblestone>]]);
 
 craftingTable.remove(<item:computercraft:wireless_modem_normal>);
 craftingTable.addShaped("wireless_modem_normal", <item:computercraft:wireless_modem_normal>,
-    [<item:minecraft:stone>, <item:minecraft:stone>, <item:minecraft:stone>, 
+    [[<item:minecraft:stone>, <item:minecraft:stone>, <item:minecraft:stone>, 
     <item:minecraft:stone>, <item:minecraft:diamond>, <item:minecraft:stone>,
-    <item:minecraft:stone>, <item:minecraft:stone> , <item:minecraft:stone>]);
+    <item:minecraft:stone>, <item:minecraft:stone> , <item:minecraft:stone>]]);
 
 craftingTable.remove(<item:computercraft:wireless_modem_advanced>);
 craftingTable.addShaped("wireless_modem_advanced", <item:computercraft:wireless_modem_advanced>,
-    [<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, 
+    [[<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, 
     <item:minecraft:gold_ingot>, <item:minecraft:diamond>, <item:minecraft:gold_ingot>,
-    <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot> , <item:minecraft:gold_ingot>]);
+    <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot> , <item:minecraft:gold_ingot>]]);
 
 craftingTable.remove(<item:create:rose_quartz>);
 craftingTable.addShapeless("rose_quartz", <item:create:rose_quartz>,
-    [<item:minecraft:flint>, <item:minecraft:redstone>, <item:minecraft:redstone>, 
+    [[<item:minecraft:flint>, <item:minecraft:redstone>, <item:minecraft:redstone>, 
     <item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>,
-    <item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>]);
+    <item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>]]);
 
 craftingTable.remove(<item:create:filter>);
 craftingTable.addShapeless("filter", <item:create:filter>,
