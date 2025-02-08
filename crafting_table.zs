@@ -83,9 +83,9 @@ craftingTable.addShaped("item_vault", <item:create:item_vault>,
 
 craftingTable.remove(<item:minecraft:comparator>);
 craftingTable.addShaped("comparator", <item:minecraft:comparator>,
-    [<item:minecraft:air>, <item:minecraft:redstone_torch>, <item:minecraft:air>, 
+    [[<item:minecraft:air>, <item:minecraft:redstone_torch>, <item:minecraft:air>, 
     <item:minecraft:redstone_torch>, <item:create:rose_quartz>, <item:minecraft:redstone_torch>,
-    <item:minecraft:stone>, <item:minecraft:stone> , <item:minecraft:stone>]);
+    <item:minecraft:stone>, <item:minecraft:stone> , <item:minecraft:stone>]]);
 
 craftingTable.remove(<item:minecraft:observer>);
 craftingTable.addShaped("observer", <item:minecraft:observer>,
@@ -107,9 +107,9 @@ craftingTable.addShaped("wireless_modem_advanced", <item:computercraft:wireless_
 
 craftingTable.remove(<item:create:rose_quartz>);
 craftingTable.addShapeless("rose_quartz", <item:create:rose_quartz>,
-    [[<item:minecraft:flint>, <item:minecraft:redstone>, <item:minecraft:redstone>, 
+    [<item:minecraft:flint>, <item:minecraft:redstone>, <item:minecraft:redstone>, 
     <item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>,
-    <item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>]]);
+    <item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>]);
 
 craftingTable.remove(<item:create:filter>);
 craftingTable.addShapeless("filter", <item:create:filter>,
