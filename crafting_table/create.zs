@@ -83,9 +83,9 @@ craftingTable.addShaped("item_vault", <item:create:item_vault>,
 
 craftingTable.remove(<item:create:item_drain>);
 craftingTable.addShaped("item_drain", <item:create:item_drain>,
-    [[<item:minecraft:air>, <item:create:iron_sheet>, <item:minecraft:air>, 
-    <item:minecraft:air>, <item:create:copper_casing>, <item:minecraft:air>,
-    <item:minecraft:air>, <item:minecraft:air> , <item:minecraft:air>]]);
+    [[<item:minecraft:air>, <item:create:iron_sheet>, <item:minecraft:air>], 
+    [<item:minecraft:air>, <item:create:copper_casing>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:minecraft:air> , <item:minecraft:air>]]);
 
 craftingTable.remove(<item:create:rose_quartz>);
 craftingTable.addShapeless("rose_quartz", <item:create:rose_quartz>,
